@@ -9,22 +9,30 @@ body {
     background-color: white;
     font-family: "Nunito", sans-serif;
     flex-direction: column;
-  }
-  
-  .container {
+}
+
+.container {
     text-align: center;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 2.5em;
     color: #d32f2f;
-  }
-  
-  .buttons {
+}
+
+/* Partner Name Style */
+.partner-name{
+    margin-top: 10px;
+    font-size: 1.6em;
+    color: #ff4d6d;
+    font-weight: 600;
+}
+
+.buttons {
     margin-top: 20px;
-  }
-  
-  .yes-button {
+}
+
+.yes-button {
     font-size: 1.5em;
     padding: 10px 20px;
     margin-right: 10px;
@@ -33,26 +41,25 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
 
-  .yes-button:hover{
+.yes-button:hover{
     background-color: #e03777;
-  }
-  
-  .no-button {
+}
+
+.no-button {
     font-size: 1.5em;
     padding: 10px 20px;
     background-color: #d3d3d3;
-    color: black
-    ;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .gif_container img {
+}
+
+.gif_container img {
     width: 300px;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
-  }
+}
